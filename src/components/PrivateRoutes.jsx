@@ -20,7 +20,7 @@ const PrivateRoutes = () => {
       );
       const data = await response.json();
       if (data.success) {
-        console.log(data.user);
+        // console.log(data.user);
         setUser(data.user);
       }
     } catch (error) {
